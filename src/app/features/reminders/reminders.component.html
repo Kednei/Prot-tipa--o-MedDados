@@ -1,1 +1,8 @@
-<p>reminders works!</p>
+<h2>Meus Lembretes</h2>
+<ul>
+  <li *ngFor="let reminder of reminders">
+    {{ reminder.text }} - Data: {{ reminder.date }}
+  </li>
+</ul>
+<button (click)="addReminder()">Adicionar Lembrete</button>
+

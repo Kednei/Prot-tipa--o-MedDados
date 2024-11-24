@@ -1,1 +1,8 @@
-<p>documents works!</p>
+<h2>Documentos Médicos</h2>
+<ul>
+  <li *ngFor="let doc of documents">
+    {{ doc.name }} - Categoria: {{ doc.category }}
+    <button (click)="deleteDocument(doc.id)">Excluir</button>
+  </li>
+</ul>
+<button (click)="addDocument()">Adicionar Documento</button>

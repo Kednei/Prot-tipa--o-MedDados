@@ -11,6 +11,6 @@ import { RouterModule } from '@angular/router';
       <router-outlet></router-outlet>
     </div>
   `,
-  styles: ['h1 { text-align: center; margin-top: 20px; }']
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {}

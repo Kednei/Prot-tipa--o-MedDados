@@ -1,5 +1,4 @@
-<mat-card *ngFor="let doc of documents" class="document-card">
-  <mat-card-title>{{ doc.name }}</mat-card-title>
-  <mat-card-subtitle>Categoria: {{ doc.category }}</mat-card-subtitle>
-  <button mat-button color="warn" (click)="deleteDocument(doc.id)">Excluir</button>
-</mat-card>
+<div class="container">
+  <h1>Bem-vindo ao MedDados</h1>
+  <router-outlet></router-outlet>
+</div>

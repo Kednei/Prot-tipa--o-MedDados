@@ -1,0 +1,17 @@
+{
+  "users": [
+    { "id": 1, "name": "João", "email": "joao@gmail.com", "password": "123456" }
+  ],
+  "documents": [
+    { "id": 1, "userId": 1, "name": "Exame de Sangue", "category": "Laboratorial" }
+  ],
+  "reminders": [
+    { "id": 1, "userId": 1, "title": "Tomar Medicamento", "date": "2024-11-25" }
+  ],
+  "indicators": [
+    { "id": 1, "userId": 1, "type": "Pressão", "value": "120/80", "date": "2024-11-23" }
+  ],
+  "services": [
+    { "id": 1, "name": "Hospital ABC", "location": "São Paulo", "rating": 4.5 }
+  ]
+}
